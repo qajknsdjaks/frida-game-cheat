@@ -175,6 +175,7 @@ setImmediate( main );
 
 // frida -U -f com.yrtgame.stickvar.aligames -l stickvar.js
 
+// 基于frida16 ，不然部分功能无法生效
 
 
 
