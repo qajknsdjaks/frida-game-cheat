@@ -158,7 +158,7 @@ function main() {
 })
 }
 setImmediate( main );
-
+//https://lachs.lanzoue.com/i4USG0iz9yif  样本
 //魔塔 v8a 上面有各种奇怪问题 只制作了v7a（ googeplay 下载游戏包 ）
 // frida -U -f com.mtclassic.yfsgame -l mtclassic.js
 
