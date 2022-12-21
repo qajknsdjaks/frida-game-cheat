@@ -36,7 +36,7 @@ function main() {
                     console.log("baseAddr1: " + baseAddr)
 
 
-                    if(false)
+           
                     {
                         Interceptor.attach(baseAddr.add(0x10E5190), {
                             onEnter: function(args) {
