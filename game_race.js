@@ -97,7 +97,7 @@ setImmediate( main );
 // 样本 
 // 链接：https://pan.baidu.com/s/1VHD74XH0rreF89FnFW0Ygg 
 // 提取码：uwtl
-// frida -U -f com.fingersoft.hillclimb -l game_race.js
+// frida -U -f com.smokoko.race -l game_race.js
 
 
 
