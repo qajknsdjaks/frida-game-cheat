@@ -48,7 +48,7 @@ function main() {
                         setInterval(function(){
                            
                            // setTimeScale(5.0)
-                           console.log('11111111')
+                         
                            var monoy = (Memory.readInt(ptr(baseAddr).add(0x684C0C)))
                            Memory.writeInt(ptr(baseAddr).add(0x684C0C),0xAAAAAAA,)
                            console.log('monoy',monoy)
