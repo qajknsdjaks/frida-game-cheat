@@ -69,6 +69,9 @@ function main() {
 }
 setImmediate( main );
 
+// 样本
+// 链接：https://pan.baidu.com/s/1panCn4kvsUffC7Tn10sFmw 
+// 提取码：kdxy
 
 // frida -U -f com.smokoko.race -l game_hillclimb.js
 
