@@ -82,9 +82,18 @@ function main() {
                     }
                 })
 
-          
-            //   if(false)
+           
+
+               
                 {
+                    //商城无限钻石
+                    var addr = baseAddr.add(0x730AB0)
+                    Memory.patchCode(addr, Process.pageSize , function (code) {
+                        var codeWriter = new Arm64Writer(code, { pc: addr });
+                        codeWriter.putInstruction(0x12bffe20);
+                        codeWriter.flush();
+                    });
+
 
                       //0x7C8E50   无限指挥点
                 var addr = baseAddr.add(0x7C8E50)
